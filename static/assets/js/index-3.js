@@ -3,6 +3,9 @@ window.addEventListener("load", () => {
   navigator.serviceWorker.register("../sw.js?v=2025-04-15", {
     scope: "/a/",
   });
+  
+  // Update browser tab title
+  document.title = "Headshot";
 });
 
 let xl;
